@@ -1,0 +1,83 @@
+.App {
+  text-align: center;
+}
+
+/* Header section */
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.link {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  margin-right: 5px;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #FFF;
+}
+
+/* Main */
+.main-content {
+  height: 100vh;
+}
+
+/* End Header section */
+
+/* Products */
+
+.item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  width: 200px;
+  height: 'fit-content';
+}
+
+.category-button {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  background-color: #FFF;
+  color: #000;
+  cursor: pointer;
+}
+
+/* Payment Successful section */
+.s-div {
+  text-align: center;
+}
+
+.s-payment {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 25px;
+  margin: 10% auto;
+}
+
+.s-media {
+  width: 100px !important;
+  margin: 0 auto;
+}
+
+/* End Payment Successful section */
